@@ -6,5 +6,9 @@
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
     "docs:preview": "vitepress preview"
+  },
+  "dependencies": {
+    "vite": "^5.0.2",
+    "vitepress-plugin-search": "1.0.4-alpha.20"
   }
 }
