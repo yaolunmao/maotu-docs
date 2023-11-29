@@ -3,11 +3,12 @@
     "vitepress": "1.0.0-rc.31"
   },
   "scripts": {
-    "docs:dev": "vitepress dev",
-    "docs:build": "vitepress build",
-    "docs:preview": "vitepress preview"
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
   },
   "dependencies": {
+    "maotu": "0.0.2-rc.1",
     "vite": "^5.0.2",
     "vitepress-plugin-search": "1.0.4-alpha.20"
   }

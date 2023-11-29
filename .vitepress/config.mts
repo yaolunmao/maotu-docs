@@ -4,8 +4,14 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "maotu",
   description: "maotu使用文档",
+  markdown: {
+    theme: {
+      light: 'vitesse-light',
+      dark: 'vitesse-dark',
+    },
+  },
   themeConfig: {
-    logo: '/logo.svg',
+    logo: '/favicon.svg',
     nav: nav(),
     sidebar: {
       '/guide/': sidebarGuide(),
@@ -13,6 +19,7 @@ export default defineConfig({
     footer: {
       copyright: 'Copyright © 2023-present 咬轮猫'
     },
+    
     outline:[0,3],
     outlineTitle: '内容',
     socialLinks: [
@@ -23,6 +30,11 @@ export default defineConfig({
       next: '下一篇'
     }
   },
+  head: [
+    ['meta', { name: 'theme-color', content: '#ffffff' }],
+    ['link', { rel: 'icon', href: '/favicon.svg', type: 'image/svg+xml' }],
+    ['meta', { name: 'author', content: 'yaolunmao' }]
+  ],
   lastUpdated:false
 })
 function nav() {
@@ -46,7 +58,18 @@ function sidebarGuide() {
     },
     {
       text: '基础',
-      items: []
+      items: [
+        {
+          text: '导入图形库',
+          items: [
+            { text: '导入svg文件', link: '/guide/base/import-svg' },
+            { text: '导入vue组件', link: '/guide/base/import-vue' },
+            { text: '导入图片', link: '/guide/base/import-img' },
+            { text: '导入本地文件', link: '/guide/base/import-file' }
+          ]
+        },
+        { text: '导入细节', link: '/guide/base/import-details' }
+      ]
     }
   ]
 }
