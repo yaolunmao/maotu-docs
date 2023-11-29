@@ -61,6 +61,7 @@ leftAsideStore.registerConfig('svg文件', [
 然后我们会发现左侧图形库已经有了我们刚刚导入的文件
 ![](/base/import-svg.png)
 - [在线体验](/demo/base/import-svg.md)
+- [本页源码](https://github.com/yaolunmao/maotu-docs/blob/main/demo/base/import-svg.vue)
 
 # 导入整个文件夹
 
@@ -100,6 +101,7 @@ leftAsideStore.registerConfig('svg文件', register_config);
 </script>
 ```
 - [在线体验](/demo/base/import-svg-filepath.md)
+- [本页源码](https://github.com/yaolunmao/maotu-docs/blob/main/demo/base/import-svg-filepath.vue)
 
 ::: warning
 请注意，如果您的项目不是使用`vite`构建的请自行寻找导入文件方式，本质上就是使用`svg`代码片段，甚至您可以像下面这样直接使用字符串
@@ -148,5 +150,6 @@ leftAsideStore.registerConfig('svg文件', [
 </script>
 ```
 - [在线体验](/demo/base/import-svg-str.md)
+- [本页源码](https://github.com/yaolunmao/maotu-docs/blob/main/demo/base/import-svg-str.vue)
 
 有关于`registerConfig`函数的各项参数说明，请查看[导入细节](/guide/base/import-details.md)

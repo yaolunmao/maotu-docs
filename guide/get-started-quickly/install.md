@@ -44,5 +44,6 @@ import 'maotu/dist/style.css';
 
 ![](/get-started-quickly/install.png)
 - [在线体验](/demo/get-started-quickly/install.md)
+- [本页源码](https://github.com/yaolunmao/maotu-docs/blob/main/demo/get-started-quickly/install.vue)
 
 导入之后您可能会发现左侧图形库没有任何东西，这是因为`mt-edit`本身是不包含图形库的，让我们继续来看如何导入自己的图形库
