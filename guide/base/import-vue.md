@@ -1,3 +1,5 @@
+# 导入`vue`组件
+
 > 首先我们需要一个`vue`组件，建议您使用以下`vue`组件，以便更好地契合本文档
 
 ## 示例`vue`组件
@@ -69,7 +71,6 @@ export default {
 <template>
     <div style="width: 100%;height: 100vh;">
         <mt-edit></mt-edit>
-        <my-button text="按钮" bgColor="#44B6E7" fontFamily="黑体"></my-button>
     </div>
 </template>
 <script setup>

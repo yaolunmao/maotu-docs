@@ -64,6 +64,7 @@ function sidebarGuide() {
           items: [
             { text: '导入svg文件', link: '/guide/base/import-svg' },
             { text: '导入vue组件', link: '/guide/base/import-vue' },
+            { text: '导入自定义svg', link: '/guide/base/import-custom-svg' },
             { text: '导入图片', link: '/guide/base/import-img' },
             { text: '导入本地文件', link: '/guide/base/import-file' }
           ]

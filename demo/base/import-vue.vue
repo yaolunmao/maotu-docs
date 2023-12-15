@@ -1,7 +1,6 @@
 <template>
     <div style="width: 100%;height: 100vh;">
         <mt-edit></mt-edit>
-        <my-button text="按钮" bgColor="#44B6E7" fontFamily="黑体"></my-button>
     </div>
 </template>
 <script setup>
