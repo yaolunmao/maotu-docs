@@ -69,7 +69,19 @@ function sidebarGuide() {
             { text: '导入本地文件', link: '/guide/base/import-file' }
           ]
         },
-        { text: '导入细节', link: '/guide/base/import-details' }
+        { text: '导入细节', link: '/guide/base/import-details' },
+      ]
+    },
+    {
+      text: '功能',
+      items: [
+
+      ]
+    },
+    {
+      text: '进阶场景',
+      items: [
+
       ]
     }
   ]
