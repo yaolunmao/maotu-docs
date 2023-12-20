@@ -44,7 +44,16 @@ function nav() {
       text: '在线预览',
       items: [
         { text: 'mt-edit', link: 'http://mt-edit.yaolm.top/' },
+        { text: '集成至若依', link: 'http://101.200.230.128:8888/' },
       ]
+    },
+    {
+      text: '商务合作',
+      link: '/cooperation', activeMatch: '/cooperation/' 
+    },
+    {
+      text: '问题反馈',
+      link: 'https://github.com/yaolunmao/maotu-docs/issues' 
     },
   ]
 }
@@ -75,13 +84,27 @@ function sidebarGuide() {
     {
       text: '功能',
       items: [
-
+        {
+          text: '基本操作',
+          link: '/guide/function/base' 
+        },
+        { text: '快捷键', link: '/guide/function/shortcut-key' },
       ]
     },
     {
       text: '进阶场景',
       items: [
-
+        {
+          text: '加载已有数据',
+          link: '/guide/advanced/load-data' 
+        },
+        {
+          text: '设备绑定',
+          link: '/guide/advanced/device-bind' 
+        },
+        { text: '外部控制图形属性', link: '/guide/advanced/outter-control' },
+        { text: '回调外部项目函数', link: '/guide/advanced/outter-callback' },
+        { text: '引用echarts', link: '/guide/advanced/echarts' }
       ]
     }
   ]

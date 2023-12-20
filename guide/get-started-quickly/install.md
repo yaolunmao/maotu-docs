@@ -3,7 +3,7 @@
 下面的文档将介绍如何将mt-edit嵌入到已有项目
 
 ::: warning
-mt-edit当前处于预览版，若干功能正在开发中，请勿直接将其用于生产环境
+mt-edit当前处于预览版，可能会有若干bug，欢迎反馈
 :::
 
 ## 安装依赖
@@ -45,5 +45,16 @@ import 'maotu/dist/style.css';
 ![](/get-started-quickly/install.png)
 - [在线体验](/demo/get-started-quickly/install.md)
 - [本页源码](https://github.com/yaolunmao/maotu-docs/blob/main/demo/get-started-quickly/install.vue)
+
+::: tip
+
+如果导入有问题，可以参考一下示例项目[http://101.200.230.128:8888/](http://101.200.230.128:8888/)
+
+已有项目的推荐版本为
+
+- vue:3.3.4 及以上
+- vite: 5.0.10 及以上
+
+:::
 
 导入之后您可能会发现左侧图形库没有任何东西，这是因为`mt-edit`本身是不包含图形库的，让我们继续来看如何导入自己的图形库
