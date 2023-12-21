@@ -10,6 +10,12 @@
 
 ## 创建自定义`svg`组件
 
+::: warning
+
+请注意:`template`里面不要写注释，这个文件的`style`也不要写`scoped`，因为xml语法要求比较严格，多余的字符可能会被错误解析
+
+:::
+
 ```vue
 <template>
     <svg

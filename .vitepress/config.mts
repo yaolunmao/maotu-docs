@@ -92,6 +92,16 @@ function sidebarGuide() {
       ]
     },
     {
+      text: '组件属性与事件',
+      items: [
+        {
+          text: 'mt-edit',
+          link: '/guide/attr-event/mt-edit' 
+        },
+        { text: 'mt-preview', link: '/guide/attr-event/mt-preview' },
+      ]
+    },
+    {
       text: '进阶场景',
       items: [
         {
@@ -106,6 +116,12 @@ function sidebarGuide() {
         { text: '回调外部项目函数', link: '/guide/advanced/outter-callback' },
         { text: '引用echarts', link: '/guide/advanced/echarts' }
       ]
-    }
+    },
+    {
+      text: '实验性拓展功能',
+      items: [
+        { text: '生成缩略图', link: '/guide/expansion/gen-thumb' },
+      ]
+    },
   ]
 }
