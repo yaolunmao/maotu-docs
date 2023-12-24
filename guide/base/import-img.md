@@ -21,7 +21,7 @@ leftAsideStore.registerConfig('图片', [
     id: 'my-img',
     title: '我的图片',
     type: 'img',
-    thumbnail: '/imgs/my-img.png',
+    thumbnail: '/imgs/my-img.png', //支持远程地址,也支持svg，只是不能变色之类的了，不过会保留矢量属性
     props: {
 
     }

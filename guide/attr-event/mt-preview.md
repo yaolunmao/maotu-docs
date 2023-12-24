@@ -15,7 +15,7 @@
 
 | 事件名          | 说明         | 类型                                                       |
 | --------------- | ------------ | ---------------------------------------------------------- |
-| onEventCallBack | 触发回调函数 | (type: string, svg_item_id: string, ...args: any[]) =>void |
+| onEventCallBack | 触发回调函数 | (type: string, item_id: string, ...args: any[]) =>void |
 
 ## 方法
 
