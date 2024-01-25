@@ -22,7 +22,7 @@ $ pnpm install maotu
 如果网络环境不好导致包无法下载，请使用如下命令进行依赖安装
 
 ```shell
-$ pnpm install maotu --registry https://registry.npm.taobao.org
+$ pnpm install maotu --registry https://registry.npmmirror.com
 ```
 
 ## 导入到已有项目

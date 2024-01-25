@@ -118,9 +118,10 @@ function sidebarGuide() {
       ]
     },
     {
-      text: '实验性拓展功能',
+      text: '拓展功能',
       items: [
         { text: '生成缩略图', link: '/guide/expansion/gen-thumb' },
+        { text: '绘制连线', link: '/guide/expansion/draw-line' },
       ]
     },
   ]
