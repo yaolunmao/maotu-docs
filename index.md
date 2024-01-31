@@ -12,7 +12,7 @@ hero:
       link: /guide/get-started-quickly/install
     - theme: alt
       text: 案例中心
-      link: /demo/index
+      link: http://mt-edit.yaolm.top/demo
 
 features:
   - title: 多设备可用

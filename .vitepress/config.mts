@@ -121,7 +121,7 @@ function sidebarGuide() {
       text: '拓展功能',
       items: [
         { text: '生成缩略图', link: '/guide/expansion/gen-thumb' },
-        { text: '绘制连线', link: '/guide/expansion/draw-line' },
+        { text: '连线编辑模式', link: '/guide/expansion/draw-line' },
       ]
     },
   ]
