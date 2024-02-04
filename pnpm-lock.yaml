@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   maotu:
-    specifier: 0.3.0
-    version: 0.3.0
+    specifier: 0.3.1
+    version: 0.3.1
   vite:
     specifier: ^5.0.2
     version: 5.0.9
@@ -1121,8 +1121,8 @@ packages:
     dev: false
     optional: true
 
-  /maotu@0.3.0:
-    resolution: {integrity: sha512-T0wpKE/p9BSSy6ZHTwRMgf2hhtjDcf9L0tot7tByv1caTuJHrcmuy+O2kSaGOhiB+VorV7wG2FUB4PrLHn3O4w==}
+  /maotu@0.3.1:
+    resolution: {integrity: sha512-EY2vhgF2ZP/JHgbbCJrPOt7Y8I8jP4qrJdrqtMMcobBzfL5/I5VjQ3qKIpsXen5sx0OFoHehz6kP3SLis/SqPg==}
     dependencies:
       '@vueuse/core': 10.7.0(vue@3.3.11)
       ace-builds: 1.32.2
