@@ -10,6 +10,7 @@
 | exportJson | 默认加载的数据                    |        | IExportJson |
 | canZoom    | 控制能否拖动ctrl+鼠标滚轮缩放画布 | true   | boolean     |
 | canDrag    | 控制能否通过鼠标左键拖动画布          | true   | boolean     |
+| showPopover    | 鼠标悬浮时显示图元属性          | true   | boolean     |
 
 ## 事件
 
