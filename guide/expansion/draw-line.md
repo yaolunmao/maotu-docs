@@ -25,3 +25,7 @@
 同样支持按住`ctrl`+鼠标左键绘制竖线，按住`shift`+鼠标左键绘制横线
 
 ![](/expansion/draw-line5.gif)
+
+连线编辑模式下可以直接将两个图元进行连线，使其具有吸附效果
+
+![](/expansion/draw-line6.gif)
