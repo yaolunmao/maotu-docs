@@ -19,8 +19,8 @@ export default defineConfig({
     footer: {
       copyright: 'Copyright © 2023-present 咬轮猫'
     },
-    
-    outline:[0,3],
+
+    outline: [0, 3],
     outlineTitle: '内容',
     socialLinks: [
       { icon: 'github', link: 'https://github.com/yaolunmao/maotu-docs' }
@@ -35,7 +35,7 @@ export default defineConfig({
     ['link', { rel: 'icon', href: '/favicon.svg', type: 'image/svg+xml' }],
     ['meta', { name: 'author', content: 'yaolunmao' }]
   ],
-  lastUpdated:false
+  lastUpdated: false
 })
 function nav() {
   return [
@@ -49,11 +49,11 @@ function nav() {
     },
     {
       text: '商务合作',
-      link: '/cooperation', activeMatch: '/cooperation/' 
+      link: '/cooperation', activeMatch: '/cooperation/'
     },
     {
       text: '问题反馈',
-      link: 'https://github.com/yaolunmao/maotu-docs/issues' 
+      link: 'https://github.com/yaolunmao/maotu-docs/issues'
     },
   ]
 }
@@ -78,7 +78,13 @@ function sidebarGuide() {
             { text: '导入本地文件', link: '/guide/base/import-file' }
           ]
         },
-        { text: '导入细节', link: '/guide/base/import-details' },
+        {
+          text: '配置说明', items: [
+            { text: '导入细节', link: '/guide/base/import-details' },
+            { text: '默认执行事件', link: '/guide/base/import-details-events' },
+            { text: '自定义吸附点位置', link: '/guide/base/import-details-ports' },
+          ]
+        },
       ]
     },
     {
@@ -86,7 +92,7 @@ function sidebarGuide() {
       items: [
         {
           text: '基本操作',
-          link: '/guide/function/base' 
+          link: '/guide/function/base'
         },
         { text: '快捷键', link: '/guide/function/shortcut-key' },
       ]
@@ -96,7 +102,7 @@ function sidebarGuide() {
       items: [
         {
           text: 'mt-edit',
-          link: '/guide/attr-event/mt-edit' 
+          link: '/guide/attr-event/mt-edit'
         },
         { text: 'mt-preview', link: '/guide/attr-event/mt-preview' },
       ]
@@ -106,11 +112,11 @@ function sidebarGuide() {
       items: [
         {
           text: '加载已有数据',
-          link: '/guide/advanced/load-data' 
+          link: '/guide/advanced/load-data'
         },
         {
           text: '设备绑定',
-          link: '/guide/advanced/device-bind' 
+          link: '/guide/advanced/device-bind'
         },
         { text: '外部控制图形属性', link: '/guide/advanced/outter-control' },
         { text: '回调外部项目函数', link: '/guide/advanced/outter-callback' },

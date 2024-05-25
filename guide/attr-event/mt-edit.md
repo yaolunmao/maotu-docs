@@ -33,19 +33,18 @@
   </div>
 </template>
 <script setup lang="ts">
-import type { IExportJson } from '@/components/mt-edit/components/types';
-import { MtEdit } from '@/export';
+import { MtEdit } from 'maotu';
 import { onMounted, ref } from 'vue';
 import { useRouter } from 'vue-router';
 const router = useRouter();
 const MtEditRef = ref<InstanceType<typeof MtEdit>>();
-const onPreviewClick = (exportJson: IExportJson) => {
+const onPreviewClick = (exportJson: any) => {
   console.log(exportJson, '这是要传给预览组件的数据');
 };
 const onReturnClick = () => {
   router.go(-1);
 };
-const onSaveClick = (exportJson: IExportJson) => {
+const onSaveClick = (exportJson: any) => {
   console.log(exportJson, '这是要保存的数据');
 };
 onMounted(() => {
