@@ -64,8 +64,6 @@
 | ------ | ---------------------------- | -------- | -------------- |
 | type     | 类型标识 必须唯一        | 是       | 禁止使用`tc`、`lc`、`bc`、`rc`这些系统占用类型 |
 | position  | 锚点位置计算相对于哪个点 | 是       | 可选的值有leftTop、leftBottom、rightTop |
-| action | 事件行为                   | 是       | 可选的值有changeAttr和customCode。changeAttr为属性更改，customCode为自定义代码 |
-| offset | 锚点相对于x轴和y轴的偏移量配置 | 是 | |
 
 ### offset说明
 
