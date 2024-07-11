@@ -8,7 +8,7 @@
     "preview": "vitepress preview"
   },
   "dependencies": {
-    "maotu": "0.3.5",
+    "maotu": "latest",
     "vite": "^5.0.2",
     "vitepress-plugin-search": "1.0.4-alpha.20"
   }

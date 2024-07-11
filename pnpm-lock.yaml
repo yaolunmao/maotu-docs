@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       maotu:
-        specifier: 0.3.5
-        version: 0.3.5(@vue/runtime-core@3.3.11)
+        specifier: latest
+        version: 0.3.6-beta.3(@vue/runtime-core@3.3.11)
       vite:
         specifier: ^5.0.2
         version: 5.0.9(less@4.2.0)
@@ -664,8 +664,8 @@ packages:
     resolution: {integrity: sha512-LS9X+dc8KLxXCb8dni79fLIIUA5VyZoyjSMCwTluaXA0o27cCK0bhXkpgw+sTXVpPy/lSO57ilRixqk0vDmtRA==}
     engines: {node: '>=6'}
 
-  maotu@0.3.5:
-    resolution: {integrity: sha512-A3/2n1y2sMLYOznSexz70XrQVQOCSL/jPqLHgAVMnKbRcxX6RtYreZ/jzTNt3WrVRA6IYpazznfqLUmpm8Vyzg==}
+  maotu@0.3.6-beta.3:
+    resolution: {integrity: sha512-yWhstk8gV/GYBM/7ZgCO2HMTrL380ZzC7pVwG1saxwXATQjk7XmuSMV4Z3OvyuZx6mXY0jjIeaZ08IrHAPuEiQ==}
 
   mark.js@8.11.1:
     resolution: {integrity: sha512-1I+1qpDt4idfgLQG+BNWmrqku+7/2bi5nLf4YwF8y8zXvmfiTBY3PV3ZibfrjBueCByROpuBjLLFCajqkgYoLQ==}
@@ -1651,7 +1651,7 @@ snapshots:
       semver: 5.7.2
     optional: true
 
-  maotu@0.3.5(@vue/runtime-core@3.3.11):
+  maotu@0.3.6-beta.3(@vue/runtime-core@3.3.11):
     dependencies:
       '@vueuse/core': 10.7.0(vue@3.3.11)
       ace-builds: 1.32.2
