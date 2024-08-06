@@ -48,6 +48,16 @@ const router = createRouter({
       name: 'get-args',
       path: '/get-args',
       component: () => import('../views/demo/get-args.vue')
+    },
+    {
+      name: 'a-effect-b-edit',
+      path: '/a-effect-b-edit',
+      component: () => import('../views/demo/a-effect-b/edit.vue')
+    },
+    {
+      name: 'a-effect-b-preview',
+      path: '/a-effect-b-preview',
+      component: () => import('../views/demo/a-effect-b/preview.vue')
     }
   ]
 })

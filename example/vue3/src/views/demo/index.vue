@@ -75,6 +75,16 @@ const ability = [
         params: {}
       });
     }
+  },
+  {
+    title: '全局事件-当属性a被改变后修改属性b的值',
+    img: '/imgs/a-effect-b.png',
+    onClick: () => {
+      router.push({
+        name: 'a-effect-b-edit',
+        params: {}
+      });
+    }
   }
 ];
 </script>

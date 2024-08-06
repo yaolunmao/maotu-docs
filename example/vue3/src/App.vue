@@ -201,9 +201,28 @@ leftAsideStore.registerConfig('开发测试用', [
     width: 350,
     height: 50,
     props: {}
-  }
+  },
+  {
+    id: 'a-effect-b',
+    title: '演示当属性a被改变后修改属性b的值所用组件',
+    type: 'svg',
+    thumbnail: '/svgs/demo.svg',
+    svg: demo,
+    props: {
+      fill: {
+        type: 'color',
+        val: '#FF0000',
+        title: '填充色'
+      },
+      point:{
+        type:'number',
+        val:0,
+        title:'点位'
+      }
+    }
+  },
 ]);
-// 这里用延迟函数模拟从服务端异步请求获取模板 maotu版本需大于等于maotu 0.3.6-beta.5
+// 这里用延迟函数模拟从服务端异步请求获取模板 maotu版本需大于等于maotu 0.3.6-beta.6
 setTimeout(() => {
   leftAsideStore.registerConfig('已有模板', [
     {
