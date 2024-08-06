@@ -203,6 +203,122 @@ leftAsideStore.registerConfig('开发测试用', [
     props: {}
   }
 ]);
+// 这里用延迟函数模拟从服务端异步请求获取模板 maotu版本需大于等于maotu 0.3.6-beta.5
+setTimeout(() => {
+  leftAsideStore.registerConfig('已有模板', [
+    {
+      id: 'model1',
+      title: '模板1',
+      type: 'model',
+      thumbnail: '/imgs/model1.png',
+      props: {},
+      model_json: {
+        canvasCfg: {
+          width: 1920,
+          height: 1080,
+          scale: 1,
+          color: '#000000',
+          img: '',
+          guide: true,
+          adsorp: true,
+          adsorp_diff: 5,
+          transform_origin: {
+            x: 0,
+            y: 0
+          },
+          drag_offset: {
+            x: 0,
+            y: 0
+          }
+        },
+        gridCfg: {
+          enabled: false,
+          align: true,
+          size: 10
+        },
+        json: [
+          {
+            id: 'text-vue-cGOamHBi08',
+            title: '文字',
+            type: 'vue',
+            binfo: {
+              left: 814,
+              top: 46,
+              width: 268,
+              height: 50,
+              angle: 0
+            },
+            resize: true,
+            rotate: true,
+            lock: false,
+            active: false,
+            hide: false,
+            props: {
+              text: '我是模板1',
+              fontFamily: '黑体',
+              fontSize: 18,
+              fill: '#FFF700',
+              vertical: false
+            },
+            tag: 'text-vue',
+            common_animations: {
+              val: '',
+              delay: 'delay-0s',
+              speed: 'slow',
+              repeat: 'infinite'
+            },
+            events: [],
+            ports: []
+          },
+          {
+            id: 'my-button-D7Av86CvcB',
+            title: '我的按钮',
+            type: 'vue',
+            binfo: {
+              left: 543,
+              top: 313,
+              width: 133,
+              height: 50,
+              angle: 0
+            },
+            resize: true,
+            rotate: true,
+            lock: false,
+            active: false,
+            hide: false,
+            props: {
+              text: '点我打开弹窗',
+              bgColor: '#44B6E7',
+              fontFamily: '黑体'
+            },
+            tag: 'my-button',
+            common_animations: {
+              val: '',
+              delay: 'delay-0s',
+              speed: 'slow',
+              repeat: 'infinite'
+            },
+            events: [
+              {
+                id: 'DqAC31T7XI',
+                type: 'click',
+                action: 'customCode',
+                change_attr: [],
+                custom_code:
+                  "$mtElMessageBox.alert('你好我是加载出来的模板,看到我代表你定义的事件已经生效！', '标题', {\n          confirmButtonText: '我明白了',\n          callback: (action) => {\n            console.log(action)\n          },\n        })",
+                trigger_rule: {
+                  value: null
+                }
+              }
+            ],
+            ports: []
+          }
+        ],
+        eventList: []
+      }
+    }
+  ]);
+}, 1000);
 </script>
 
 <template>
