@@ -25,4 +25,5 @@
 | setImportJson   | 设置要加载的数据   | (exportJson: IExportJson) => boolean                         |
 | setItemAttrByID | 通过id设置图元属性 | (id: string, key: string, val: any) => Promise               |
 | setItemAttrs    | 批量设置图元属性   | (info: {  id: string;   key: string;   val: any;}[]) => void |
+| setDevicePointByID | 通过id设置设备点位数据 | (id: string, val: any) => void|
 

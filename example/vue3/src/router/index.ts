@@ -58,6 +58,16 @@ const router = createRouter({
       name: 'a-effect-b-preview',
       path: '/a-effect-b-preview',
       component: () => import('../views/demo/a-effect-b/preview.vue')
+    },
+    {
+      name: 'bind-device-edit',
+      path: '/bind-device-edit',
+      component: () => import('../views/demo/bind-device/edit.vue')
+    },
+    {
+      name: 'bind-device-preview',
+      path: '/bind-device-preview',
+      component: () => import('../views/demo/bind-device/preview.vue')
     }
   ]
 })

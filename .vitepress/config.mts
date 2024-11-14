@@ -3,7 +3,8 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "maotu",
-  description: "maotu使用文档",
+  titleTemplate:"maotu-web组态引擎库",
+  description: "maotu-web组态引擎库使用文档",
   markdown: {
     theme: {
       light: 'vitesse-light',
@@ -45,6 +46,13 @@ function nav() {
       items: [
         { text: 'mt-edit', link: 'http://mt-edit.yaolm.top/' },
         { text: '集成至若依', link: 'http://101.200.230.128:8888/' },
+      ]
+    },
+    {
+      text: '集成示例源码',
+      items: [
+        { text: 'vue3', link: 'https://github.com/yaolunmao/maotu-docs/tree/main/example/vue3' },
+        { text: '集成至若依', link: 'https://github.com/yaolunmao/maotu-ry.git' },
       ]
     },
     {
@@ -95,6 +103,15 @@ function sidebarGuide() {
           link: '/guide/function/base'
         },
         { text: '快捷键', link: '/guide/function/shortcut-key' },
+      ]
+    },
+    {
+      text: '名词解释',
+      items: [
+        {
+          text: '全局事件',
+          link: '/guide/definition/global-events'
+        }
       ]
     },
     {

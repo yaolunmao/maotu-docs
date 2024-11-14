@@ -85,6 +85,16 @@ const ability = [
         params: {}
       });
     }
+  },
+  {
+    title: '设备绑定demo',
+    img: '/imgs/a-effect-b.png',
+    onClick: () => {
+      router.push({
+        name: 'bind-device-edit',
+        params: {}
+      });
+    }
   }
 ];
 </script>
