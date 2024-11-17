@@ -88,7 +88,7 @@ const ability = [
   },
   {
     title: '设备绑定demo',
-    img: '/imgs/a-effect-b.png',
+    img: '/imgs/bind-device.png',
     onClick: () => {
       router.push({
         name: 'bind-device-edit',

@@ -1,6 +1,6 @@
 <template>
     <div class="w-1/1 h-100vh">
-        <mt-edit ref="MtEditRef" :device-info="testDeviceInfo" @on-return-click="onReturnClick"
+        <mt-edit ref="MtEditRef" :device-info="test_device_info" @on-return-click="onReturnClick"
             @on-preview-click="onPreviewClick"></mt-edit>
     </div>
 </template>
@@ -11,16 +11,36 @@ import { onMounted, ref } from 'vue';
 import { useRouter } from 'vue-router';
 const router = useRouter();
 const MtEditRef = ref<InstanceType<typeof MtEdit>>();
-const testDeviceInfo = ref([
+const test_device_info = ref([
     {
-        label: '测试点位1',
-        value: 'abc'
+      label: '设备1',
+      value: 'd1',
+      children: [
+        {
+          label: '测试点位1',
+          value: 'abc'
+        },
+        {
+          label: '测试点位2',
+          value: 'def'
+        }
+      ]
     },
     {
-        label: '测试点位2',
-        value: 'def'
+      label: '设备2',
+      value: 'd2',
+      children: [
+        {
+          label: '测试点位1',
+          value: 'qwe'
+        },
+        {
+          label: '测试点位2',
+          value: 'asd'
+        }
+      ]
     }
-]);
+  ]);
 const onReturnClick = () => {
     router.go(-1);
 };

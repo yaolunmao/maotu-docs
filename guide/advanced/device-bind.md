@@ -7,14 +7,34 @@
 首先在引用编辑器组件`mt-edit`时，需要将设备信息传递给编辑器组件，设备信息的格式如下
 
 ```js
- [
+[
     {
-      label: '测试点位1',
-      value: 'abc'
+      label: '设备1',
+      value: 'd1',
+      children: [
+        {
+          label: '测试点位1',
+          value: 'abc'
+        },
+        {
+          label: '测试点位2',
+          value: 'def'
+        }
+      ]
     },
     {
-      label: '测试点位2',
-      value: 'def'
+      label: '设备2',
+      value: 'd2',
+      children: [
+        {
+          label: '测试点位1',
+          value: 'qwe'
+        },
+        {
+          label: '测试点位2',
+          value: 'asd'
+        }
+      ]
     }
   ]
 
@@ -27,19 +47,39 @@
 <template>
   <div>
     <mt-edit
-      :device-info="testDeviceInfo"
+      :device-info="test_device_info"
     ></mt-edit>
   </div>
 </template>
 <script setup lang="ts">
-const testDeviceInfo = ref([
+const test_device_info = ref([
     {
-      label: '测试点位1',
-      value: 'abc'
+      label: '设备1',
+      value: 'd1',
+      children: [
+        {
+          label: '测试点位1',
+          value: 'abc'
+        },
+        {
+          label: '测试点位2',
+          value: 'def'
+        }
+      ]
     },
     {
-      label: '测试点位2',
-      value: 'def'
+      label: '设备2',
+      value: 'd2',
+      children: [
+        {
+          label: '测试点位1',
+          value: 'qwe'
+        },
+        {
+          label: '测试点位2',
+          value: 'asd'
+        }
+      ]
     }
   ]
 );
@@ -55,13 +95,13 @@ const testDeviceInfo = ref([
 
 ```vue
 <template>
-    <mt-preview ref="svgPreviewRef" :export-json="export_json"></mt-preview>
+    <mt-preview ref="MtPreviewRef" :export-json="export_json"></mt-preview>
 </template>
 <script setup lang="ts">
 import { MtPreview } from 'maotu';
-const svgPreviewRef = ref<InstanceType<typeof MtPreview>>();
+const MtPreviewRef = ref<InstanceType<typeof MtPreview>>();
 
-svgPreviewRef.value.setDevicePointByID('abc', '#00FF00');
+MtPreviewRef.value.setDevicePointByID('abc', '#00FF00');
 
 </script>
 ```
