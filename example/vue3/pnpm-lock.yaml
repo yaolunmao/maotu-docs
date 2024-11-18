@@ -12,11 +12,11 @@ importers:
         specifier: ^5.4.3
         version: 5.5.1
       element-plus:
-        specifier: ^2.7.6
-        version: 2.7.8(vue@3.4.35(typescript@5.4.5))
+        specifier: 2.8.0
+        version: 2.8.0(vue@3.4.35(typescript@5.4.5))
       maotu:
-        specifier: 0.5.0-beta.2
-        version: 0.5.0-beta.2(@vue/runtime-core@3.4.35)(typescript@5.4.5)
+        specifier: 0.5.0-beta.4
+        version: 0.5.0-beta.4(@vue/runtime-core@3.4.35)(typescript@5.4.5)
       unocss:
         specifier: ^0.61.3
         version: 0.61.9(postcss@8.4.41)(rollup@4.20.0)(vite@5.3.5(@types/node@20.14.14)(less@4.2.0))
@@ -647,46 +647,55 @@ packages:
     resolution: {integrity: sha512-jMYvxZwGmoHFBTbr12Xc6wOdc2xA5tF5F2q6t7Rcfab68TT0n+r7dgawD4qhPEvasDsVpQi+MgDzj2faOLsZjA==}
     cpu: [arm]
     os: [linux]
+    libc: [glibc]
 
   '@rollup/rollup-linux-arm-musleabihf@4.20.0':
     resolution: {integrity: sha512-1asSTl4HKuIHIB1GcdFHNNZhxAYEdqML/MW4QmPS4G0ivbEcBr1JKlFLKsIRqjSwOBkdItn3/ZDlyvZ/N6KPlw==}
     cpu: [arm]
     os: [linux]
+    libc: [musl]
 
   '@rollup/rollup-linux-arm64-gnu@4.20.0':
     resolution: {integrity: sha512-COBb8Bkx56KldOYJfMf6wKeYJrtJ9vEgBRAOkfw6Ens0tnmzPqvlpjZiLgkhg6cA3DGzCmLmmd319pmHvKWWlQ==}
     cpu: [arm64]
     os: [linux]
+    libc: [glibc]
 
   '@rollup/rollup-linux-arm64-musl@4.20.0':
     resolution: {integrity: sha512-+it+mBSyMslVQa8wSPvBx53fYuZK/oLTu5RJoXogjk6x7Q7sz1GNRsXWjn6SwyJm8E/oMjNVwPhmNdIjwP135Q==}
     cpu: [arm64]
     os: [linux]
+    libc: [musl]
 
   '@rollup/rollup-linux-powerpc64le-gnu@4.20.0':
     resolution: {integrity: sha512-yAMvqhPfGKsAxHN8I4+jE0CpLWD8cv4z7CK7BMmhjDuz606Q2tFKkWRY8bHR9JQXYcoLfopo5TTqzxgPUjUMfw==}
     cpu: [ppc64]
     os: [linux]
+    libc: [glibc]
 
   '@rollup/rollup-linux-riscv64-gnu@4.20.0':
     resolution: {integrity: sha512-qmuxFpfmi/2SUkAw95TtNq/w/I7Gpjurx609OOOV7U4vhvUhBcftcmXwl3rqAek+ADBwSjIC4IVNLiszoj3dPA==}
     cpu: [riscv64]
     os: [linux]
+    libc: [glibc]
 
   '@rollup/rollup-linux-s390x-gnu@4.20.0':
     resolution: {integrity: sha512-I0BtGXddHSHjV1mqTNkgUZLnS3WtsqebAXv11D5BZE/gfw5KoyXSAXVqyJximQXNvNzUo4GKlCK/dIwXlz+jlg==}
     cpu: [s390x]
     os: [linux]
+    libc: [glibc]
 
   '@rollup/rollup-linux-x64-gnu@4.20.0':
     resolution: {integrity: sha512-y+eoL2I3iphUg9tN9GB6ku1FA8kOfmF4oUEWhztDJ4KXJy1agk/9+pejOuZkNFhRwHAOxMsBPLbXPd6mJiCwew==}
     cpu: [x64]
     os: [linux]
+    libc: [glibc]
 
   '@rollup/rollup-linux-x64-musl@4.20.0':
     resolution: {integrity: sha512-hM3nhW40kBNYUkZb/r9k2FKK+/MnKglX7UYd4ZUy5DJs8/sMsIbqWK2piZtVGE3kcXVNj3B2IrUYROJMMCikNg==}
     cpu: [x64]
     os: [linux]
+    libc: [musl]
 
   '@rollup/rollup-win32-arm64-msvc@4.20.0':
     resolution: {integrity: sha512-psegMvP+Ik/Bg7QRJbv8w8PAytPA7Uo8fpFjXyCRHWm6Nt42L+JtoqH8eDQ5hRP7/XW2UiIriy1Z46jf0Oa1kA==}
@@ -1183,8 +1192,8 @@ packages:
   electron-to-chromium@1.5.4:
     resolution: {integrity: sha512-orzA81VqLyIGUEA77YkVA1D+N+nNfl2isJVjjmOyrlxuooZ19ynb+dOlaDTqd/idKRS9lDCSBmtzM+kyCsMnkA==}
 
-  element-plus@2.7.8:
-    resolution: {integrity: sha512-h6dx2XihAbQaud0v+6O7Fy0b0G3YNplNVH7QnK3csTcvQd4y4raiyMRQpf9EKbRbTMdNrFsqAZrs9ok9DMcJHg==}
+  element-plus@2.8.0:
+    resolution: {integrity: sha512-7ngapVlVlQAjocVqD4MUKvKXlBneT9DSDk2mmBOSLRFWNm/HLDT15ozmsvUBfy18sajnyUeSIHTtINE8gfrGMg==}
     peerDependencies:
       vue: ^3.2.0
 
@@ -1550,8 +1559,8 @@ packages:
     resolution: {integrity: sha512-LS9X+dc8KLxXCb8dni79fLIIUA5VyZoyjSMCwTluaXA0o27cCK0bhXkpgw+sTXVpPy/lSO57ilRixqk0vDmtRA==}
     engines: {node: '>=6'}
 
-  maotu@0.5.0-beta.2:
-    resolution: {integrity: sha512-tJco7ONP7r+wtVOn5zbwLxZEJXlhRqcASmtvGph/2gQFfXQytQDunZY+Shb2CBRm1d6oX5jD8P1CtLS3cpp/Sg==}
+  maotu@0.5.0-beta.4:
+    resolution: {integrity: sha512-kwKk8+csKIIGum6B61hags4yttWWdDQgzNEtJYGUpafEidSfW8jRDA4L433rY5j9COM8UI46ZHv+KaZ4r2xrUA==}
 
   mdn-data@2.0.30:
     resolution: {integrity: sha512-GaqWWShW4kv/G9IEucWScBx9G1/vsFZZJUO+tD26M8J8z3Kw5RDQjaoZe03YAClgeS/SWPOcb4nkFBTEi5DUEA==}
@@ -3241,7 +3250,7 @@ snapshots:
 
   electron-to-chromium@1.5.4: {}
 
-  element-plus@2.7.8(vue@3.4.35(typescript@5.4.5)):
+  element-plus@2.8.0(vue@3.4.35(typescript@5.4.5)):
     dependencies:
       '@ctrl/tinycolor': 3.6.1
       '@element-plus/icons-vue': 2.3.1(vue@3.4.35(typescript@5.4.5))
@@ -3688,7 +3697,7 @@ snapshots:
       semver: 5.7.2
     optional: true
 
-  maotu@0.5.0-beta.2(@vue/runtime-core@3.4.35)(typescript@5.4.5):
+  maotu@0.5.0-beta.4(@vue/runtime-core@3.4.35)(typescript@5.4.5):
     dependencies:
       '@kjgl77/datav-vue3': 1.7.4(vue@3.4.35(typescript@5.4.5))
       '@vueuse/core': 10.11.1(vue@3.4.35(typescript@5.4.5))
@@ -3696,7 +3705,7 @@ snapshots:
       animate.css: 4.1.1
       canvg: 4.0.2
       echarts: 5.5.1
-      element-plus: 2.7.8(vue@3.4.35(typescript@5.4.5))
+      element-plus: 2.8.0(vue@3.4.35(typescript@5.4.5))
       html2canvas: 1.4.1
       less: 4.2.0
       vue: 3.4.35(typescript@5.4.5)
