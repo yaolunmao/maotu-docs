@@ -145,6 +145,7 @@ function sidebarGuide() {
       items: [
         { text: '生成缩略图', link: '/guide/expansion/gen-thumb' },
         { text: '连线编辑模式', link: '/guide/expansion/draw-line' },
+        { text: '使用缩略图进行二次编辑', link: '/guide/expansion/thumb-second-edit' },
       ]
     },
   ]
