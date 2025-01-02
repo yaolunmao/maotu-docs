@@ -15,9 +15,9 @@
   "dependencies": {
     "echarts": "^5.4.3",
     "element-plus": "2.8.0",
-    "maotu": "0.5.0-beta.4",
+    "maotu": "0.6.2-beta3",
     "unocss": "^0.61.3",
-    "vue": "^3.4.29",
+    "vue": "^3.5.13",
     "vue-echarts": "^6.6.5",
     "vue-router": "^4.3.3"
   },
