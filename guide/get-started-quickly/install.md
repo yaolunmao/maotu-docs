@@ -46,11 +46,13 @@ import 'maotu/dist/style.css';
 
 ::: tip
 
-如果导入有问题，可以参考一下示例项目[http://101.200.230.128:8888/](http://101.200.230.128:8888/)
+如果导入有问题，可以参考一下示例项目[https://github.com/yaolunmao/maotu-docs/tree/main/example/vue3](https://github.com/yaolunmao/maotu-docs/tree/main/example/vue3)
+
+更多用法请参考平台版的实现[http://81.70.21.114:8888/](http://81.70.21.114:8888/)
 
 已有项目的推荐版本为
 
-- vue:3.3.4 及以上
+- vue:3.3.4 及以上（最好是3.5.13）
 - vite: 5.0.10 及以上
 
 :::

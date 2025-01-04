@@ -11,8 +11,8 @@ hero:
       text: 快速上手→
       link: /guide/get-started-quickly/install
     - theme: alt
-      text: 案例中心
-      link: http://mt-edit.yaolm.top/demo
+      text: 平台版
+      link: http://81.70.21.114:8888
 
 features:
   - title: 多设备可用

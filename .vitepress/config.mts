@@ -56,6 +56,10 @@ function nav() {
       ]
     },
     {
+      text: '平台版',
+      link: 'http://81.70.21.114:8888'
+    },
+    {
       text: '商务合作',
       link: '/cooperation', activeMatch: '/cooperation/'
     },
