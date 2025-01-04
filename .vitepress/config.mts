@@ -115,6 +115,35 @@ function sidebarGuide() {
       ]
     },
     {
+      text: '事件流程',
+      items: [
+        {
+          text: '事件流程说明',
+          link: '/guide/event-flow/describe'
+        },
+        {
+          text: '获取图元属性节点',
+          link: '/guide/event-flow/get-pel'
+        },
+        {
+          text: '设置图元属性节点',
+          link: '/guide/event-flow/set-pel'
+        },
+        {
+          text: '条件节点',
+          link: '/guide/event-flow/condition'
+        },
+        {
+          text: 'http节点',
+          link: '/guide/event-flow/http'
+        },
+        {
+          text: '流程使用示例',
+          link: '/guide/event-flow/example'
+        }
+      ]
+    },
+    {
       text: '组件属性与事件',
       items: [
         {

@@ -1,8 +1,9 @@
-# 全局事件
+# setItemAttrById
 
-全局事件位于页面配置的右侧，当我们使用[外部控制图形属性](/guide/advanced/outter-control)时触发
+`setItemAttrById`位于页面配置的右侧，当我们使用[外部控制图形属性](/guide/advanced/outter-control)时触发
 
 ![](/definition/1.png)
+
 
 ## 使用场景
 
@@ -16,3 +17,7 @@
 ### 示例
 
 我在[vue3示例项目](https://github.com/yaolunmao/maotu-docs/tree/main/example/vue3)里面写了一个[demo](https://github.com/yaolunmao/maotu-docs/tree/main/example/vue3/src/views/demo/a-effect-b)，可供参考
+
+# 页面初始化
+
+在预览页加载完成后触发，这个应该不用解释太多了吧
