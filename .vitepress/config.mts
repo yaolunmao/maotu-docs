@@ -24,7 +24,7 @@ export default defineConfig({
     outline: [0, 3],
     outlineTitle: '内容',
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/yaolunmao/maotu-docs' }
+      { icon: 'github', link: 'https://github.com/yaolunmao/maotu-webtopo' }
     ],
     docFooter: {
       prev: '上一篇',
@@ -44,6 +44,8 @@ function nav() {
     {
       text: '在线预览',
       items: [
+        { text: 'maotu开源版(github)', link: 'https://github.com/yaolunmao/maotu-webtopo' },
+        { text: 'maotu开源版(gitee)', link: 'https://gitee.com/yaolunmao/maotu-webtopo' },
         { text: 'mt-edit', link: 'http://mt-edit.yaolm.top/' },
         { text: '集成至若依', link: 'http://101.200.230.128:8888/' },
       ]
@@ -65,7 +67,7 @@ function nav() {
     },
     {
       text: '问题反馈',
-      link: 'https://github.com/yaolunmao/maotu-docs/issues'
+      link: 'https://github.com/yaolunmao/maotu-webtopo/issues'
     },
   ]
 }

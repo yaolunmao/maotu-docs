@@ -9,7 +9,7 @@ importers:
   .:
     dependencies:
       maotu:
-        specifier: latest
+        specifier: 0.3.6-beta.3
         version: 0.3.6-beta.3(@vue/runtime-core@3.3.11)
       vite:
         specifier: ^5.0.2
