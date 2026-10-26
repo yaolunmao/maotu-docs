@@ -59,7 +59,7 @@ function nav() {
     },
     {
       text: '平台版',
-      link: 'http://81.70.21.114:8888'
+      link: 'https://mt-platform.yaolm.top'
     },
     {
       text: '商务合作',

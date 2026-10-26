@@ -12,7 +12,7 @@ hero:
       link: /guide/get-started-quickly/install
     - theme: alt
       text: 平台版
-      link: http://81.70.21.114:8888
+      link: https://mt-platform.yaolm.top
 
 features:
   - title: 多设备可用

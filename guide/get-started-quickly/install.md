@@ -48,7 +48,7 @@ import 'maotu/dist/style.css';
 
 如果导入有问题，可以参考一下示例项目[https://github.com/yaolunmao/maotu-docs/tree/main/example/vue3](https://github.com/yaolunmao/maotu-docs/tree/main/example/vue3)
 
-更多用法请参考平台版的实现[http://81.70.21.114:8888/](http://81.70.21.114:8888/)
+更多用法请参考平台版的实现[https://mt-platform.yaolm.top/](https://mt-platform.yaolm.top/)
 
 已有项目的推荐版本为
 
